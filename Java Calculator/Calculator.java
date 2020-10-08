@@ -16,8 +16,7 @@ public class Calculator {
 
         double result = 0;
 
-        switch(operator)
-        {
+        switch (operator) {
             case '+':
                 result = first + second;
                 break;
@@ -33,18 +32,19 @@ public class Calculator {
             case '/':
                 result = first / second;
                 break;
-            
+
             case '%':
                 result = first % second;
 
-            // operator doesn't match any case constant (+, -, *, /)
+                // operator doesn't match any case constant (+, -, *, /)
             default:
                 System.out.println("Error! operator is not correct");
                 break;
         }
 
-        System.out.print( first+" ");
-        System.out.print( operator+" ");
-        System.out.print( second+" =");
+        System.out.print(first + " ");
+        System.out.print(operator + " ");
+        System.out.print(second + " =");
         System.out.println(result);
     }
+}

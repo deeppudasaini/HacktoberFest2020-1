@@ -54,8 +54,8 @@ class SimpleCalculator implements ActionListener
             t3.setText(String.valueOf((num1+num2)));
         }
         if (e.getSource()==b2) {
- 
-      } t3.setText(String.valueOf((num1-num2)));
+            t3.setText(String.valueOf((num1-num2)));
+      }
       if (e.getSource()==b3) {
         t3.setText(String.valueOf((num1*num2)));
       }
@@ -66,7 +66,6 @@ class SimpleCalculator implements ActionListener
           t1.setText(null);
           t2.setText(null);
           t3.setText(null);
-
       }
         
     }
